@@ -56,7 +56,7 @@ class MainActivity : AppCompatActivity() {
                     holder = view.tag as ViewHolder
                 }
 
-                var tmp = getItem(position) as CategoryAndPriceData
+                val tmp = getItem(position) as CategoryAndPriceData
                 holder.categoryTextView.text = tmp.category
                 holder.priceTextView.text = tmp.price.toString()
 
